@@ -5,20 +5,20 @@
 }
 
 body {
-    background: #0010bf;
-    font-family: 'Edu TAS Beginner', sans-serif;
+    background: #1A374D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .todo-container {
-    color: white;
+    color: #E7F6F2;
     position: absolute;
     top: 50%;
     left: 50%;
     padding: 20px;
     width: 600px;
     transform: translate(-50%, -50%);
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
+    background: #406882;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,31 +34,36 @@ h2 {
 }
 
 input {
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     width: 100%;
     padding: 5px;
     border-radius: 5px;
-    height: 20px;
-    font-family: 'Edu TAS Beginner', sans-serif;
+    border: none;
+    background: white;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 
 textarea {
     display:block;
-    padding: 2px;
+    padding: 5px;
     width: 100%;
     border-radius: 5px;
-    font-family: 'Edu TAS Beginner', sans-serif;
+    border: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 .todo-header button {
-    display:block;
-    color: white;
+    display: block;
+    color: #E7F6F2;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
     margin: 5px;
-    padding: 5px;
-    background-color: rgb(51, 212, 51);
-    font-family: 'Edu TAS Beginner', sans-serif;
+    padding: 10px;  
+    background-color: #1A374D;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -70,7 +75,7 @@ ul {
     margin-top: 10px;
     border: none;
     border-radius: 5px;
-    background: rgba(0, 0, 0, 0.3);
+    background: #1A374D;
     display: flex;
     flex-direction: row;
 }
@@ -84,6 +89,7 @@ ul {
 .todo-list-item form {
     width: 100%;
     display: flex;
+    align-items: flex-start;
 }
 
 .todo-list-item input {
@@ -95,7 +101,7 @@ ul {
 
 
 .todo-list-item .confirm {
-    color: white;
+    color: #E7F6F2;
     text-decoration: none;
     border: none;
     border-radius: 5px;
@@ -104,12 +110,13 @@ ul {
     background-color: rgb(51, 212, 100);
     margin-left: 5px;
     max-height: 30px;
-    font-family: 'Edu TAS Beginner', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
     display: block;
 }
 
 .todo-list-item .cancel {
-    color: white;
+    color: #E7F6F2;
     text-decoration: none;
     border: none;
     border-radius: 5px;
@@ -118,6 +125,8 @@ ul {
     background-color: rgb(223, 43, 43);
     margin-left: 5px;
     max-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
     display: block;
 }
 
